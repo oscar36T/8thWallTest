@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/holo_luminance.png",
+  "metadata": null,
+  "name": "holo",
+  "type": "PLANAR",
+  "properties": {
+    "top": 27,
+    "left": 0,
+    "width": 800,
+    "height": 1067,
+    "isRotated": false,
+    "originalWidth": 800,
+    "originalHeight": 1121
+  },
+  "resources": {
+    "originalImage": "holo_original.png",
+    "croppedImage": "holo_cropped.png",
+    "thumbnailImage": "holo_thumbnail.png",
+    "luminanceImage": "holo_luminance.png"
+  },
+  "created": 1775035116121,
+  "updated": 1775035116121
+}
