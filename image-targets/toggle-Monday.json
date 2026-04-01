@@ -1,25 +1,25 @@
 {
-  "imagePath": "image-targets/jp_monday_text_luminance.png",
+  "imagePath": "image-targets/toggle-slam_luminance.png",
   "resources": {
-    "originalImage": "image_0.png",
-    "croppedImage": "image-targets/jp_monday_text_luminance.png",
-    "thumbnailImage": "image-targets/jp_monday_text_thumbnail.png",
-    "geometryImage": "image-targets/jp_monday_text_geometry.png",
-    "luminanceImage": "image-targets/jp_monday_text_luminance.png"
+    "originalImage": "toggle-slam_original.png",
+    "croppedImage": "toggle-slam_cropped.png",
+    "thumbnailImage": "toggle-slam_thumbnail.png",
+    "geometryImage": "toggle-slam_geometry.png",
+    "luminanceImage": "toggle-slam_luminance.png"
   },
   "name": "toggle-Monday",
   "type": "PLANAR",
   "properties": {
-    "top": 0,
+    "top": 85,
     "left": 0,
-    "width": 1000,
-    "height": 667,
-    "isRotated": false,
-    "originalWidth": 1000,
-    "originalHeight": 667
+    "width": 1024,
+    "height": 1365,
+    "isRotated": true,
+    "originalWidth": 1024,
+    "originalHeight": 1536
   },
   "userMetadataIsJson": true,
   "loadAutomatically": true,
-  "created": 1716180000000,
-  "updated": 1716180000000
+  "created": 1752602517654,
+  "updated": 1752602530117
 }
