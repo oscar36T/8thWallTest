@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/Finacial_luminance.png",
+  "metadata": null,
+  "name": "Finacial",
+  "type": "PLANAR",
+  "properties": {
+    "left": 225,
+    "top": 0,
+    "width": 1346,
+    "height": 1795,
+    "isRotated": true,
+    "originalWidth": 1795,
+    "originalHeight": 1795
+  },
+  "resources": {
+    "originalImage": "Finacial_original.png",
+    "croppedImage": "Finacial_cropped.png",
+    "thumbnailImage": "Finacial_thumbnail.png",
+    "luminanceImage": "Finacial_luminance.png"
+  },
+  "created": 1776324963820,
+  "updated": 1776324963820
+}

@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/Employer_luminance.png",
+  "metadata": null,
+  "name": "Employer",
+  "type": "PLANAR",
+  "properties": {
+    "left": 225,
+    "top": 0,
+    "width": 1346,
+    "height": 1795,
+    "isRotated": true,
+    "originalWidth": 1795,
+    "originalHeight": 1795
+  },
+  "resources": {
+    "originalImage": "Employer_original.png",
+    "croppedImage": "Employer_cropped.png",
+    "thumbnailImage": "Employer_thumbnail.png",
+    "luminanceImage": "Employer_luminance.png"
+  },
+  "created": 1776338196299,
+  "updated": 1776338196299
+}
