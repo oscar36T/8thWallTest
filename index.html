@@ -1,1 +1,45 @@
-<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Empty Project</title><script crossorigin="anonymous" src="./external/runtime/runtime.js"></script><script crossorigin="anonymous" src="./external/xr/xr.js" async="true" data-preload-chunks="face, slam"></script><link rel="stylesheet" href="style.css"></head><body><div id="login-overlay"><div class="login-container"><h2>系統登入</h2><div class="input-group"><label for="user-id">使用者 ID</label> <input id="user-id" placeholder="請輸入 ID"></div><div class="input-group"><label for="user-pass">密碼</label> <input type="password" id="user-pass" placeholder="請輸入密碼"></div><p id="error-message" style="color: red; display: none;">帳號或密碼錯誤，請重試。</p><button id="login-btn">登入</button></div></div><script src="bundle.js"></script></body></html>
+<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Empty Project</title><script crossorigin="anonymous" src="./external/runtime/runtime.js"></script><script crossorigin="anonymous" src="./external/xr/xr.js" async="true" data-preload-chunks="face, slam"></script><style>#login-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.85);
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    .login-container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      width: 80%;
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .input-group input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    #login-btn {
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }</style></head><body><div id="login-overlay"><div class="login-container"><h2>系統登入</h2><div class="input-group"><label for="user-id">使用者 ID</label> <input id="user-id" placeholder="請輸入 ID"></div><div class="input-group"><label for="user-pass">密碼</label> <input type="password" id="user-pass" placeholder="請輸入密碼"></div><p id="error-message" style="color: red; display: none;">帳號或密碼錯誤，請重試。</p><button id="login-btn">登入</button></div></div><script src="bundle.js"></script></body></html>
