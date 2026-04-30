@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 224,
+    "width": 1346,
+    "height": 1795,
+    "isRotated": true,
+    "originalWidth": 1795,
+    "originalHeight": 1795
+  },
+  "imagePath": "image-targets/Compliance_luminance.png",
+  "metadata": null,
+  "name": "Compliance",
+  "resources": {
+    "originalImage": "Compliance_original.png",
+    "croppedImage": "Compliance_cropped.png",
+    "thumbnailImage": "Compliance_thumbnail.png",
+    "luminanceImage": "Compliance_luminance.png"
+  },
+  "created": 1777525665827,
+  "updated": 1777525727259
+}
